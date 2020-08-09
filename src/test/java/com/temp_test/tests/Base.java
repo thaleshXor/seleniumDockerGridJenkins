@@ -17,7 +17,7 @@ import org.testng.annotations.Parameters;
 public class Base {
 	
     protected WebDriver driver;
-	String browserName=System.getProperty("BROWSER");
+	//String browserName=System.getProperty("BROWSER");
 	String completeUrl="http://localhost:44444/wd/hub";
     
 	

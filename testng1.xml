@@ -1,5 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="DevOps And News">
+	<parameter name="browserName" value="chrome"/>
     <test name="set1 DevOpsURL">
         
         <parameter name="url1" value="title:=selenium;url:=https://www.selenium.dev/"/>

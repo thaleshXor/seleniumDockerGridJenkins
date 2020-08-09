@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Orgs And PopularProducts">
-    
+    <parameter name="browserName" value="firefox"/>
       <test name="set3 OrganizationURL">
         
         <parameter name="url1" value="title:=xoriant;url:=http://xoriant.com/"/>
