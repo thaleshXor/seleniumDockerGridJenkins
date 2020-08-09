@@ -18,7 +18,7 @@ public class Base {
 	
     protected WebDriver driver;
 	//String browserName=System.getProperty("BROWSER");
-	String completeUrl="http://localhost:44444/wd/hub";
+	String completeUrl="http://localhost:4444/wd/hub";
     
 	
     //-------------------------------------------RUN ON  SERVER------------------------------------------
